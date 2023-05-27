@@ -69,7 +69,7 @@ module.exports = new ChatInputCommand({
         serverApiId: ServerApiId.of(serverCfg.CFTOOLS_SERVER_API_ID),
         session,
         coordinates: {
-          x, y, z
+          x, z, y
         }
       });
     }
